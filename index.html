@@ -1,0 +1,337 @@
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'a0fa21afa761a870214486fb91006198',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/a0fa21afa761a870214486fb91006198/invoke.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Navratri!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap');
+
+        :root {
+            --saffron: #FF9933;
+            --deep-red: #CC0000;
+            --bright-yellow: #FFDD00;
+            --shimmer-gold: #FFD700;
+            --dark-gold: #B8860B;
+            --bg-color-1: #36013F;
+            --bg-color-2: #6A057F;
+            --text-color-light: #F0F0F0;
+            --glass-bg: rgba(255, 255, 255, 0.15);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --shadow-dark: rgba(0, 0, 0, 0.4);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, var(--bg-color-1) 0%, var(--bg-color-2) 100%);
+            color: var(--text-color-light);
+            min-height: 100vh;
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Navratri GIF */
+        .navratri-gif {
+            max-width: 90%;
+            width: 500px;
+            height: auto;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 10px 20px var(--shadow-dark), 0 0 30px var(--saffron);
+            animation: gifGlow 3s infinite alternate;
+        }
+
+        @keyframes gifGlow {
+            0% { box-shadow: 0 10px 20px var(--shadow-dark), 0 0 20px var(--saffron); }
+            100% { box-shadow: 0 10px 20px var(--shadow-dark), 0 0 40px var(--shimmer-gold); }
+        }
+
+        /* Animated Greeting Text */
+        .greeting-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .greeting-text {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.8em;
+            color: var(--bright-yellow);
+            text-shadow: 2px 2px var(--saffron), 4px 4px var(--deep-red), 6px 6px var(--dark-gold);
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeInText 2s forwards ease-out;
+        }
+
+        @keyframes fadeInText {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Input Fields */
+        .input-group {
+            margin-bottom: 20px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--glass-border);
+            border-radius: 10px;
+            background: var(--glass-bg);
+            color: var(--text-color-light);
+            font-size: 1em;
+            outline: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 10px var(--shadow-dark);
+        }
+
+        .input-group input::placeholder {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .input-group input:focus {
+            border-color: var(--bright-yellow);
+            box-shadow: 0 0 0 3px rgba(255,221,0,0.5), 0 4px 15px var(--shimmer-gold);
+            background: rgba(255,255,255,0.25);
+        }
+
+        /* Buttons */
+        .btn {
+            background: linear-gradient(45deg, var(--saffron), var(--deep-red));
+            color: var(--text-color-light);
+            padding: 14px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px var(--shadow-dark);
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 20px var(--shadow-dark), 0 0 15px var(--bright-yellow);
+        }
+
+        .whatsapp-btn {
+            background: linear-gradient(45deg, #25D366, #128C7E);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .whatsapp-btn i {
+            font-size: 1.4em;
+        }
+
+        /* Generated Card */
+        #wishCard {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 40px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 10px 30px var(--shadow-dark);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 0.6s ease-out;
+        }
+
+        #wishCard.show {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        #wishMessage {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.6em;
+            margin-bottom: 25px;
+            color: var(--bright-yellow);
+        }
+
+        /* Audio Control */
+        #audioControl {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 10px var(--shadow-dark);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        #audioControl:hover {
+            background: rgba(255,255,255,0.25);
+            box-shadow: 0 4px 15px var(--shimmer-gold);
+        }
+
+        #audioControl i {
+            font-size: 1.5em;
+            color: var(--bright-yellow);
+        }
+
+        @media (max-width: 768px) {
+            .navratri-gif { width: 90%; max-width: 400px; margin-top: 15px; }
+            .greeting-text { font-size: 2.2em; margin: 20px 0; }
+            .input-group, #wishCard { width: 95%; padding: 20px; }
+            .input-group input, .btn { padding: 12px 20px; font-size: 1em; }
+            #wishMessage { font-size: 1.4em; }
+            #audioControl { width: 45px; height: 45px; top: 15px; right: 15px; }
+            #audioControl i { font-size: 1.3em; }
+        }
+
+        @media (max-width: 480px) {
+            .navratri-gif { width: 95%; max-width: 300px; }
+            .greeting-text { font-size: 1.8em; }
+            #wishMessage { font-size: 1.2em; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Audio Control -->
+    <div id="audioControl">
+        <i id="audioIcon" class="fas fa-volume-up"></i>
+    </div>
+    <audio id="backgroundMusic" src="song.mp3" loop preload="auto"></audio>
+
+    <!-- Header & GIF -->
+    <img src="navratri.gif" alt="Navratri Celebrations" class="navratri-gif">
+
+    <!-- Greeting Text -->
+    <div class="greeting-container">
+        <h1 class="greeting-text">Happy Navratri!</h1>
+    </div>
+
+    <!-- Input Fields -->
+    <div class="input-group">
+        <label for="senderName">Your Name</label>
+        <input type="text" id="senderName" placeholder="Enter your name">
+    </div>
+
+    <div class="input-group">
+        <label for="recipientName">To Someone Special (Optional)</label>
+        <input type="text" id="recipientName" placeholder="Enter recipient's name">
+    </div>
+
+    <!-- Create Wish Button -->
+    <button id="createWishBtn" class="btn">Create Your Navratri Wish</button>
+
+    <!-- Generated Card -->
+    <div id="wishCard">
+        <p id="wishMessage"></p>
+        <button id="whatsappShareBtn" class="btn whatsapp-btn" style="display:none;">
+            <i class="fab fa-whatsapp"></i> Share on WhatsApp
+        </button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const senderNameInput = document.getElementById('senderName');
+            const recipientNameInput = document.getElementById('recipientName');
+            const createWishBtn = document.getElementById('createWishBtn');
+            const wishCard = document.getElementById('wishCard');
+            const wishMessage = document.getElementById('wishMessage');
+            const whatsappShareBtn = document.getElementById('whatsappShareBtn');
+            const backgroundMusic = document.getElementById('backgroundMusic');
+            const audioControl = document.getElementById('audioControl');
+            const audioIcon = document.getElementById('audioIcon');
+
+            // Audio toggle
+            audioControl.addEventListener('click', () => {
+                if(backgroundMusic.paused){
+                    backgroundMusic.play();
+                    audioIcon.classList.remove('fa-volume-mute');
+                    audioIcon.classList.add('fa-volume-up');
+                } else {
+                    backgroundMusic.pause();
+                    audioIcon.classList.remove('fa-volume-up');
+                    audioIcon.classList.add('fa-volume-mute');
+                }
+            });
+
+            createWishBtn.addEventListener('click', () => {
+                const sender = senderNameInput.value.trim();
+                const recipient = recipientNameInput.value.trim();
+                if(!sender){
+                    alert("Please enter your name!");
+                    return;
+                }
+                let message = recipient
+                    ? `Dearest ${recipient}, may Maa Durga bless you with strength, joy, and prosperity. Wishing you a divine and joyous Navratri! With love, ${sender}`
+                    : `Wishing you a very Happy Navratri filled with devotion, dance, and blessings! With love from ${sender}`;
+                wishMessage.textContent = message;
+                wishCard.classList.add('show');
+                whatsappShareBtn.style.display = 'flex';
+                wishCard.scrollIntoView({behavior:'smooth'});
+            });
+
+            whatsappShareBtn.addEventListener('click', () => {
+                const message = encodeURIComponent(wishMessage.textContent + "\n\n" + window.location.href);
+                const whatsappUrl = `https://api.whatsapp.com/send?text=${message}`;
+                window.open(whatsappUrl,'_blank');
+            });
+
+            // Autoplay music (may require user interaction)
+            backgroundMusic.play().catch(()=>{});
+        });
+    </script>
+</body>
+</html>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'a0fa21afa761a870214486fb91006198',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/a0fa21afa761a870214486fb91006198/invoke.js"></script>
